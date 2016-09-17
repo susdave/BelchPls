@@ -18,8 +18,9 @@ void loop() {
   {
     btserial.print('#');
     btserial.print(val);
-    btserial.print("Poor");
-    btserial.print("");
+    btserial.print(" Poor ");
+    btserial.print(analogRead(A1));
+    btserial.print('~');
     btserial.println();
     delay(3000);
   }
@@ -27,7 +28,8 @@ void loop() {
   {
     btserial.print('#');
     btserial.print(val);
-    btserial.print("Fair");
+    btserial.print(" Fair ");
+    btserial.print(analogRead(A1));
     btserial.print('~');
     btserial.println();
     delay(3000);
@@ -36,7 +38,8 @@ void loop() {
   {
     btserial.print('#');
     btserial.print(val);
-    btserial.print("Good");
+    btserial.print(" Good ");
+    btserial.print(analogRead(A1));
     btserial.print('~');
     btserial.println();
     delay(3000);
@@ -45,7 +48,8 @@ void loop() {
   {
     btserial.print('#');
     btserial.print(val);
-    btserial.print("Very Good");
+    btserial.print(" Very Good ");
+    btserial.print(analogRead(A1));
     btserial.print('~');
     btserial.println();
     delay(3000);
@@ -54,7 +58,8 @@ void loop() {
   {
     btserial.print('#');
     btserial.print(val);
-    btserial.print("Excellent");
+    btserial.print(" Excellent ");
+    btserial.print(analogRead(A1));
     btserial.print('~');
     btserial.println();
     delay(3000);
