@@ -16,28 +16,55 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
+<<<<<<< HEAD
+        android:text="@string/status"
+=======
         android:text="Belcher"
+>>>>>>> origin/master
         android:id="@+id/txtArduino"
         android:maxLines="1"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
+<<<<<<< HEAD
+        android:layout_marginTop="138dp"
+        android:textSize="50sp"/>
+=======
         android:layout_marginTop="138dp" />
+>>>>>>> origin/master
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
+<<<<<<< HEAD
+        android:text="ABC123"
+        android:id="@+id/txtPlate"
+        android:layout_marginTop="57dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_marginLeft="34dp"
+        android:layout_marginStart="34dp" />
+=======
         android:text="Plate Number"
         android:id="@+id/txtPlate"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="41dp" />
+>>>>>>> origin/master
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
+<<<<<<< HEAD
+        android:text="14.5751278"
+        android:id="@+id/txtLatitude"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/txtLongitude"
+        android:layout_alignEnd="@+id/txtLongitude" />
+=======
         android:text="Latitude"
         android:id="@+id/txtLatitude"
         android:layout_centerVertical="true"
@@ -45,11 +72,61 @@
         android:layout_alignParentStart="true"
         android:layout_marginLeft="31dp"
         android:layout_marginStart="31dp" />
+>>>>>>> origin/master
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
+<<<<<<< HEAD
+        android:text="121.0434995"
+        android:id="@+id/txtLongitude"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/txtLatitude"
+        android:layout_alignRight="@+id/txtPlate"
+        android:layout_alignEnd="@+id/txtPlate" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload to database"
+        android:id="@+id/button"
+        android:layout_marginBottom="54dp"
+        android:onClick="onSend"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/lat"
+        android:id="@+id/txtLat"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/lo"
+        android:id="@+id/txtLo"
+        android:layout_alignTop="@+id/txtLongitude"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/plate"
+        android:id="@+id/textView"
+        android:layout_alignTop="@+id/txtPlate"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+=======
         android:text="Longitude"
         android:id="@+id/txtLongitude"
         android:layout_centerVertical="true"
@@ -57,4 +134,5 @@
         android:layout_alignParentEnd="true"
         android:layout_marginRight="30dp"
         android:layout_marginEnd="30dp" />
+>>>>>>> origin/master
 </RelativeLayout>

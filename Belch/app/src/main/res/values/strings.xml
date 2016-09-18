@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">Belch</string>
     <string name="action_settings">Settings</string>
+<<<<<<< HEAD
+    <string name="lo">Longitude:</string>
+    <string name="lat">Latitude:</string>
+    <string name="status">No Status</string>
+    <string name="plate">Plate Number:</string>
+=======
+>>>>>>> origin/master
 </resources>
